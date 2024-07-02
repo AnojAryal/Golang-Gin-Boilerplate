@@ -122,3 +122,12 @@ func Login(c *gin.Context) {
 		// "token" : tokenString,
 	})
 }
+
+func Validate(c *gin.Context) {
+	user, _ := c.Get("user")
+
+	c.JSON(http.StatusOK, gin.H{
+		"message": "Hello, " + user.(string) + "you are logged in",
+	})
+}
+
