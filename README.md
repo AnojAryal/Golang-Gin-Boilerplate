@@ -1,6 +1,6 @@
-## Go JWT Authentication Boilerplate
+# Go JWT Authentication Boilerplate
 
-# This repository is a starter template for creating a Go API project with JWT authentication, CRUD operations, and a clean modular structure. It uses the following technologies:
+This repository is a starter template for creating a Go API project with JWT authentication, CRUD operations, and a clean modular structure. It uses the following technologies:
 
 1) Gin: Web framework
 2) GORM: Object-Relational Mapper (ORM)
